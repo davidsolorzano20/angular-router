@@ -7,8 +7,8 @@ describe('angular-route App', () => {
     page = new AngularRoutePage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display message saying 00-app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('00-app works!');
   });
 });

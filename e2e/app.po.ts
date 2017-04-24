@@ -6,6 +6,6 @@ export class AngularRoutePage {
   }
 
   getParagraphText() {
-    return element(by.css('app-root h1')).getText();
+    return element(by.css('00-app-root h1')).getText();
   }
 }
